@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./sign_up/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left Side -->
+      <div class="left">
+        <h3 class="brand">Remit</h3>
+        <h2 class="title">Welcome!</h2>
+        <p class="description">Sign in by entering the details below</p>
+        <form action="">
+          <!-- Email -->
+          <div class="form-group">
+            <label for="emailid">Email address</label>
+            <input
+              type="text"
+              name="email"
+              id="emailid"
+              placeholder="example@gmail.com"
+            />
+          </div>
+          <!-- Password -->
+          <div class="form-group">
+            <label for="pass">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="pass"
+              placeholder="******"
+            />
+          </div>
+          <div class="inline-form-parent">
+            <!-- Remember -->
+            <div class="inline-form-group">
+              <input type="checkbox" name="checkbox" id="check" />
+              <label class="check" for="check">Remember me</label>
+            </div>
+            <!-- Forgot Password -->
+            <div class="inline-form-group">
+              <input type="checkbox" name="checkbox" id="check" />
+              <label class="check" for="check">Forgotten password</label>
+            </div>
+          </div>
+
+          <!-- Submit Button -->
+          <input class="submit-btn" id="btn" type="button" value="Continue" />
+          <!-- Message -->
+          <p class="helptext">
+            Dont have an account? <a href="#">Create one here</a>
+          </p>
+        </form>
+      </div>
+      <!-- Right Side -->
+      <div class="right">
+        <img src="images/greenhills.jpg" alt="greenhills" />
+      </div>
+    </div>
+  </body>
+</html>
